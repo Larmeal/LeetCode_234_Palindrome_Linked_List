@@ -20,7 +20,7 @@ class Solution:
             # added next number of the list
             head = head.next
 
-        # fined the middle of list for scaning the reversing position that have same position 
+        # fined the middle list for scaning the reversing position that have same position 
         half_index = int(ceil((len(list_) - 1) / 2))
         
         # reversal process
